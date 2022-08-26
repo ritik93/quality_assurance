@@ -19,6 +19,7 @@ $$  J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\
 where
 * m is the number of training examples in the dataset
 
+* n is the number of features
 
 * The logistic loss (the cost) for a single data point is - 
 
