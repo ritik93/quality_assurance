@@ -10,9 +10,8 @@ To demonstrate regularized logistic regression we will first fit the data better
 - We will map the features into all polynomial terms of $x_1$ and $x_2$ up to the sixth power 
 
 
-For regularized logistic regression, the cost function is of the form
-$$  J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right]$$
+
 
 For regularized logistic regression, the cost function is of the form 
 
-$$  J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right]+$$
+$$  J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right] + \frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$$
